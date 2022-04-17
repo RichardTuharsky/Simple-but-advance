@@ -1,0 +1,28 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+body {
+    background-color: rgb(102, 98, 98);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-size: 7.8vmin;
+}
+
+
+#game-board {
+    display: grid;
+    grid-template-columns: repeat(4, 20 vmin);
+    grid-template-rows: repeat(4, 20 vmin);
+    background-color: rgb(101, 93, 93);
+    gap: 2vmin;
+
+}
+.cell {
+    background-color: rgb(244, 94, 94);
+    border-radius: 5vmin;
+}
